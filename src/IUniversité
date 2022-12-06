@@ -1,0 +1,6 @@
+import java.sql.SQLException;
+
+public interface IUniversité {
+	public Universite GetById(int universityId) throws SQLException;
+	public Universite GetById(int universityId,  IJournal j) throws SQLException;
+}
